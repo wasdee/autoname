@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "autoname"
+version = "0.1.1"
+description = "an enum `AutoName` from python docs with multiple stringcase options"
+authors = ["Nutchanon Ninyawee <me@nutchanon.org>"]
+license = "ISC"
+readme = "README.md"
+repository = "https://github.com/CircleOnCircles/autoname"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
