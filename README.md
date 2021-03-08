@@ -1,4 +1,10 @@
+# This project is archived. I find StrEnum, fastapi-utils is better.
+
+I removed autoname from pypi
+
 # autoname
+
+
 
 an enum `AutoName` from [python docs](https://docs.python.org/3/library/enum.html#using-automatic-values) with multiple stringcase options.
 
