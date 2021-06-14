@@ -74,7 +74,7 @@ class GameType(StrEnum):
     INDIE = auto()
 
 
-print(GameType.INDIE.value)  # "indie"
+print(GameType.INDIE.value)  # "INDIE"
 ```
 
 ## Alternative 
