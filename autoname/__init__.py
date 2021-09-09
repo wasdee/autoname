@@ -1,3 +1,5 @@
+
+
 __all__ = ['AutoName', 'StrEnum', "AutoNameLower", "AutoNameUpper", "LowerStrEnum", "UpperStrEnum", "AutoNameSnake2Camel", 'snake2camel', 'transform', 'make_strEnum', ]
 
 import inspect
