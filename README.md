@@ -15,6 +15,7 @@
 a string enum `AutoName` from python docs with multiple stringcase options
 
 </div>
+
 ## Get Started
 
 ```bash
