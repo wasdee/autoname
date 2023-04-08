@@ -14,7 +14,9 @@ __all__ = [
 import inspect
 import re
 import uuid
-from enum import Enum
+
+# auto is required for the `exec` call
+from enum import Enum, auto  # noqa
 from typing import Optional, Type, Callable
 
 

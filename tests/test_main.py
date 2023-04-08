@@ -96,7 +96,7 @@ def test_autoname_decorator():
 
 
 def test_autoname_decorator_no_transform():
-    with pytest.raises(ValueError) as excinfo:
+    with pytest.raises(TypeError) as excinfo:
 
         @transform
         class Foo(StrEnum):
@@ -106,4 +106,7 @@ def test_autoname_decorator_no_transform():
             HolyCow = auto()
             whatTheMeow = auto()
 
-        assert "" in str(excinfo.value)
+        assert (
+            "transform() missing 1 required keyword-only argument: 'function'"
+            in str(excinfo.value)
+        )
