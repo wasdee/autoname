@@ -20,7 +20,7 @@ from typing import Optional, Type, Callable
 
 class AutoName(str, Enum):
     """
-    an enum `AutoName` from [python docs](https://docs.python.org/3/library/enum.html#using-automatic-values) 
+    an enum `AutoName` from [python docs](https://docs.python.org/3/library/enum.html#using-automatic-values)
     with multiple stringcase options.
     """
 
@@ -51,8 +51,8 @@ UpperStrEnum = AutoNameUpper
 def snake2camel(snake: str, start_lower: bool = False) -> str:
     """
     Converts a snake_case string to camelCase.
-    The `start_lower` argument determines whether the first letter in 
-    the generated camelcase should be lowercase (if `start_lower` is True), 
+    The `start_lower` argument determines whether the first letter in
+    the generated camelcase should be lowercase (if `start_lower` is True),
     or capitalized (if `start_lower` is False).
     """
     camel = snake.title()
@@ -64,7 +64,7 @@ def snake2camel(snake: str, start_lower: bool = False) -> str:
 
 class AutoNameSnake2Camel(AutoName):
     """
-    CamelStrEnum subclasses that create variants using `auto()` 
+    CamelStrEnum subclasses that create variants using `auto()`
     will have values equal to their camelCase names
     """
 
