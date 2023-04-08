@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "autoname"
-version = "2.0.0"
+version = "2.1.0"
 description = "an enum `AutoName` from python docs with multiple stringcase options"
 authors = ["Nutchanon Ninyawee <me@nutchanon.org>"]
 license = "ISC"
